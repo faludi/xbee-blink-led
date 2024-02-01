@@ -1,7 +1,7 @@
 from machine import Pin     # loads the GPIO Pin library from the machine module
 import time                 # loads the time module
 
-led = Pin('D10', Pin.OUT)    # defines "led" as an output on pin D4
+led = Pin('D4', Pin.OUT)    # defines "led" as an output on pin D4
 
 while True:                 # run this section of code forever
     led.on()                # turn on the LED
